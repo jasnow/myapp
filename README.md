@@ -1,5 +1,7 @@
 # README
 
+From: https://gorails.com/setup/ubuntu blog
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
