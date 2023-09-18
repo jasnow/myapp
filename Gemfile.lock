@@ -121,6 +121,7 @@ GEM
     mini_portile2 (2.8.4)
     minitest (5.20.0)
     msgpack (1.7.2)
+    mutex_m (0.1.2)
     net-imap (0.3.7)
       date
       net-protocol
@@ -293,6 +294,7 @@ DEPENDENCIES
   capybara
   jbuilder
   listen
+  mutex_m
   puma
   rack-mini-profiler
   rails (= 7.0.8)
