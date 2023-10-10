@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails
-  revision: 0a3ee82f744abe88af6c6a727f5db8393adc5b9b
+  revision: 27029a310909de2bbd42e56faad449403f61a4b9
   branch: 7-1-stable
   specs:
     actioncable (7.1.0)
@@ -151,7 +151,7 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.21.3)
+    loofah (2.21.4)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.8.1)
@@ -166,7 +166,7 @@ GEM
     minitest (5.20.0)
     msgpack (1.7.2)
     mutex_m (0.1.2)
-    net-imap (0.4.0)
+    net-imap (0.4.1)
       date
       net-protocol
     net-pop (0.1.2)
@@ -215,7 +215,7 @@ GEM
       ffi (~> 1.0)
     rdoc (6.5.0)
       psych (>= 4.0.0)
-    regexp_parser (2.8.1)
+    regexp_parser (2.8.2)
     reline (0.3.9)
       io-console (~> 0.5)
     rexml (3.2.6)
@@ -233,7 +233,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    selenium-webdriver (4.13.1)
+    selenium-webdriver (4.14.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
@@ -268,7 +268,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.6)
+    sqlite3 (1.6.7)
       mini_portile2 (~> 2.8.0)
     stringio (3.0.9)
     strings (0.2.1)
