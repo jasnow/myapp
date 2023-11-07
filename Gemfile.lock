@@ -321,7 +321,6 @@ DEPENDENCIES
   capybara
   jbuilder
   listen
-  mutex_m
   puma
   rack-mini-profiler
   rails (= 7.1.1)
