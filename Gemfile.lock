@@ -114,10 +114,10 @@ GEM
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
-    irb (1.12.0)
-      rdoc
+    irb (1.13.0)
+      rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    jbuilder (2.11.5)
+    jbuilder (2.12.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     listen (3.9.0)
@@ -222,7 +222,7 @@ GEM
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
     regexp_parser (2.9.0)
-    reline (0.5.3)
+    reline (0.5.4)
       io-console (~> 0.5)
     rexml (3.2.6)
     ruby_audit (2.3.0)
@@ -362,7 +362,7 @@ DEPENDENCIES
   webpacker
 
 RUBY VERSION
-   ruby 3.3.0p0
+   ruby 3.3.1p55
 
 BUNDLED WITH
    2.5.9
