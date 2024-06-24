@@ -6,7 +6,7 @@ ruby File.read(".ruby-version")
 gem "rexml" # 9/17/2021: Added for Ruby 3.0.0.
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '7.1.3.4'
+gem 'rails', '7.2.0.beta2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
