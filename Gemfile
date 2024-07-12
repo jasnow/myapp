@@ -4,9 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby File.read(".ruby-version")
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '7.2.0.beta2'
+gem 'rails', '7.2.0.beta3'
 gem "rexml" # 9/17/2021: Added for Ruby 3.0.0.
-gem 'net-pop', github: 'ruby/net-pop' # 6/28/2024: Required for RUBY 3.3.3
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
