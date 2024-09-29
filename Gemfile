@@ -6,6 +6,7 @@ ruby File.read(".ruby-version")
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '7.2.1'
 gem "rexml" # 9/17/2021: Added for Ruby 3.0.0.
+gem "ostruct"
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
