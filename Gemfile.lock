@@ -101,17 +101,12 @@ GEM
     date (3.4.1)
     docile (1.4.1)
     drb (2.2.3)
-    erb (5.0.1)
+    erb (5.0.2)
     erubi (1.13.1)
     ffi (1.17.2)
-    ffi (1.17.2-aarch64-linux-gnu)
-    ffi (1.17.2-aarch64-linux-musl)
-    ffi (1.17.2-arm-linux-gnu)
-    ffi (1.17.2-arm-linux-musl)
     ffi (1.17.2-arm64-darwin)
     ffi (1.17.2-x86_64-darwin)
     ffi (1.17.2-x86_64-linux-gnu)
-    ffi (1.17.2-x86_64-linux-musl)
     globalid (1.2.1)
       activesupport (>= 6.1)
     haml (6.3.0)
@@ -159,23 +154,13 @@ GEM
     nokogiri (1.18.8)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.18.8-aarch64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.8-aarch64-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.8-arm-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.8-arm-linux-musl)
-      racc (~> 1.4)
     nokogiri (1.18.8-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.8-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.8-x86_64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.8-x86_64-linux-musl)
-      racc (~> 1.4)
-    ostruct (0.6.2)
+    ostruct (0.6.3)
     parser (3.3.8.0)
       ast (~> 2.4.1)
       racc
@@ -270,7 +255,7 @@ GEM
       docile (~> 1.1)
       simplecov-html (~> 0.11)
       simplecov_json_formatter (~> 0.1)
-    simplecov-html (0.13.1)
+    simplecov-html (0.13.2)
     simplecov_json_formatter (0.1.4)
     slim (5.2.1)
       temple (~> 0.10.0)
@@ -298,14 +283,9 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (2.7.2)
       mini_portile2 (~> 2.8.0)
-    sqlite3 (2.7.2-aarch64-linux-gnu)
-    sqlite3 (2.7.2-aarch64-linux-musl)
-    sqlite3 (2.7.2-arm-linux-gnu)
-    sqlite3 (2.7.2-arm-linux-musl)
     sqlite3 (2.7.2-arm64-darwin)
     sqlite3 (2.7.2-x86_64-darwin)
     sqlite3 (2.7.2-x86_64-linux-gnu)
-    sqlite3 (2.7.2-x86_64-linux-musl)
     stringio (3.1.7)
     strings (0.2.1)
       strings-ansi (~> 0.2)
@@ -355,17 +335,9 @@ GEM
     zeitwerk (2.7.3)
 
 PLATFORMS
-  aarch64-linux-gnu
-  aarch64-linux-musl
-  arm-linux-gnu
-  arm-linux-musl
-  arm64-darwin
   ruby
   universal-darwin
-  x86_64-darwin
   x86_64-linux
-  x86_64-linux-gnu
-  x86_64-linux-musl
 
 DEPENDENCIES
   bootsnap
@@ -391,7 +363,7 @@ DEPENDENCIES
   webpacker
 
 RUBY VERSION
-   ruby 3.4.4p34
+   ruby 3.4.5p51
 
 BUNDLED WITH
-   2.6.9
+   2.7.0
